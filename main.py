@@ -4,14 +4,14 @@ Created on Wed Aug  9 22:36:26 2017
 
 @author: 1628026
 """
-#importing gTTS module for text to speech
-from gtts import gTTS
 import subprocess
-#importing os
-import os
-
 print("Checking requirements / installing...")
 subprocess.call('pip install gTTS', shell = True)
+
+#importing gTTS module for text to speech
+from gtts import gTTS
+#importing os
+import os
 
 #introductions for user
 print("Now this text to speech conversion is available in Indian languages!")
